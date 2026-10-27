@@ -1,0 +1,30 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+*.cache
+weights/clip/ViT-B-32.pt
+weights/*.torchscript
+datasets/raw_downloads/
+datasets/custom_objects/images/
+runs/detect/
+*.db
+*_detected*.jpg
